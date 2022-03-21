@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Area_Studyroom
+  - Area_Airport
+  - Area_Bathrom
+  - Area_Park
+  - Area_Nature
+  - Area
   layers:
   - Default
   - TransparentFX
