@@ -2759,7 +2759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 680848761}
   m_Layer: 0
-  m_Name: emo-living rm
+  m_Name: living room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
