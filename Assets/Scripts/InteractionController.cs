@@ -6,7 +6,7 @@ public class InteractionController : MonoBehaviour
 {
     public GameObject sign1;
     public GameObject fog;
-    public AudioClip panelOpen;
+    public AudioClip music;
 
     //public GameObject piclight;
     //public AudioClip panelClose;
@@ -27,7 +27,7 @@ public class InteractionController : MonoBehaviour
             Debug.Log("Player Entered");
             sign1.SetActive(true);
             fog.SetActive(false);
-            audioSrc.PlayOneShot(panelOpen);
+            audioSrc.PlayOneShot(music);
 
             //piclight.SetActive(true);
             //audioSrc(panelOpen);

@@ -15,12 +15,12 @@ public class ReadMeController : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown("1"))
         {
             readMe.SetActive(true);
         }
 
-        if (Input.GetKeyDown("1"))
+        if (Input.GetKeyDown("2"))
         {
             readMe.SetActive(false);
         }
