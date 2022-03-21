@@ -1245,7 +1245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276752553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -63.3, y: 0.1, z: -22.9}
+  m_LocalPosition: {x: -63.1, y: 0, z: -22.7}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1277,9 +1277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48908d86ac3d1465caa0826394c5110d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicMenu: {fileID: 0}
+  sign1: {fileID: 0}
   fog: {fileID: 1938827686}
-  music: {fileID: 0}
+  panelOpen: {fileID: 0}
 --- !u!1 &329124189
 GameObject:
   m_ObjectHideFlags: 0

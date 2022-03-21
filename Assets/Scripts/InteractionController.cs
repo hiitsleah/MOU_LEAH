@@ -4,9 +4,9 @@ using UnityEngine;
 //using UnityEngine.UI;
 public class InteractionController : MonoBehaviour
 {
-    public GameObject musicMenu;
+    public GameObject sign1;
     public GameObject fog;
-    public AudioClip music;
+    public AudioClip panelOpen;
 
     //public GameObject piclight;
     //public AudioClip panelClose;
@@ -14,7 +14,7 @@ public class InteractionController : MonoBehaviour
 
     void Start()
     {
-        musicMenu.SetActive(false);
+        sign1.SetActive(false);
         fog.SetActive(true);
 
         //piclight.SetActive(false);
@@ -25,7 +25,7 @@ public class InteractionController : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Player Entered");
-            musicMenu.SetActive(true);
+            sign1.SetActive(true);
             fog.SetActive(false);
 
             //piclight.SetActive(true);
