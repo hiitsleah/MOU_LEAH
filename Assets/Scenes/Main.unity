@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sign1: {fileID: 0}
   fog: {fileID: 1938827686}
-  panelOpen: {fileID: 0}
+  panelOpen: {fileID: 8300000, guid: b89b37ab3cb2344609a75b536e4071f4, type: 3}
 --- !u!1 &329124189
 GameObject:
   m_ObjectHideFlags: 0
