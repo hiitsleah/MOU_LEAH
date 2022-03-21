@@ -26,12 +26,15 @@ public class ChangeBGColor : MonoBehaviour
         RenderSettings.skybox.SetColor("_Tint", Preset.DefaulSkyColor);
         RenderSettings.ambientLight = Preset.DefaulSkyColor;
         DirectionalLight.color = Preset.DefaulSkyColor;
+
     }
     void Start()
     { 
         changeColor = false;
         backToDefaultC = false;
         c_curr = c_default;
+        c_target= c_default;
+
         
     }
 

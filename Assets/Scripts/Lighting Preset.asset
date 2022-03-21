@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Lighting Preset
   m_EditorClassIdentifier: 
   BathroomColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0}
-  AirportColor: {r: 0.41709685, g: 0.5996015, b: 0.8584906, a: 0}
-  StudyroomColor: {r: 0.7829739, g: 0.52287287, b: 0.8867924, a: 0}
-  LivingroomColor: {r: 0.9245283, g: 0.7248676, b: 0.42301533, a: 0}
+  AirportColor: {r: 0.7028302, g: 0.8264318, b: 1, a: 0}
+  StudyroomColor: {r: 0.6698113, g: 0.50598955, b: 0.31910822, a: 0}
+  LivingroomColor: {r: 0.9622642, g: 0.7615206, b: 0.45843717, a: 0}
   NatureColor: {r: 0.48420256, g: 0.8773585, b: 0.63123655, a: 0}
   SubwayColor: {r: 0.110359564, g: 0.121954955, b: 0.1509434, a: 0}
-  DefaulSkyColor: {r: 0.9528302, g: 0.5254605, b: 0.4449537, a: 0}
+  DefaulSkyColor: {r: 1, g: 0.6717344, b: 0.6084906, a: 0}
