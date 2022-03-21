@@ -11,7 +11,7 @@ public class ChangeBGColor : MonoBehaviour
 
     private bool changeColor,backToDefaultC;
     private Shader skybox;
-    private float speed = 0.5f;
+    private float speed = 0.8f;
     float startTime;
 
     //Reference
@@ -28,22 +28,10 @@ public class ChangeBGColor : MonoBehaviour
         DirectionalLight.color = Preset.DefaulSkyColor;
     }
     void Start()
-    {
-        
+    { 
         changeColor = false;
         backToDefaultC = false;
         c_curr = c_default;
-        
-
-        // c_target.r = 0.087f;
-        // c_target.g = 0.04f;
-        // c_target.b = 0.151f;
-        // c_target.a = 0.5f;
-
-        // c_default.r = 0.39f;
-        // c_default.g = 0.27f;
-        // c_default.b = 0.75f;
-        // c_default.a = 0.5f;
         
     }
 
