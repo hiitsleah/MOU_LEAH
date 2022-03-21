@@ -27,6 +27,7 @@ public class InteractionController : MonoBehaviour
             Debug.Log("Player Entered");
             sign1.SetActive(true);
             fog.SetActive(false);
+            audioSrc.PlayOneShot(panelOpen);
 
             //piclight.SetActive(true);
             //audioSrc(panelOpen);
