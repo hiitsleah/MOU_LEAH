@@ -6,20 +6,38 @@ public class InteractionController : MonoBehaviour
 {
     public GameObject sign1;
     public GameObject fog;
-    public AudioClip music;
+
+    public AudioClip[] clips; // [] means it is an array, of multiple things
+    private AudioSource audioSource;
+
+
+
+    //public AudioClip music;
 
     //public GameObject piclight;
     //public AudioClip panelClose;
-    AudioSource audioSrc;
+    //AudioSource audioSrc;
 
     void Start()
     {
         sign1.SetActive(false);
         fog.SetActive(true);
 
+        audioSource = GetComponent<AudioSource>();
+        audioSource.loop = false;
+
         //piclight.SetActive(false);
         //audioSrc = GetComponent<AudioSource>();
     }
+
+
+    private AudioClip GetRandomClip()
+    {
+        return clips[Random.Range(0, clips.Length)];
+    }
+
+
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -27,6 +45,21 @@ public class InteractionController : MonoBehaviour
             Debug.Log("Player Entered");
             sign1.SetActive(true);
             fog.SetActive(false);
+
+
+            //if (!audioSource.isPlaying)
+            //{
+                audioSource.clip = GetRandomClip();
+                audioSource.Play();
+            //}
+
+            if (Input.GetKeyDown("3"))
+            {
+                audioSource.clip = GetRandomClip();
+                audioSource.Play();
+            }
+
+
             //audioSrc.PlayOneShot(music);
 
             //piclight.SetActive(true);
@@ -40,6 +73,8 @@ public class InteractionController : MonoBehaviour
         {
             //fog.SetActive(true);
             sign1.SetActive(false);
+
+            audioSource.Stop();
 
             //piclight.SetActive(false);
             Debug.Log("Player Exited");
