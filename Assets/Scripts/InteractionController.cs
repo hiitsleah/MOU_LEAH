@@ -34,18 +34,19 @@ public class InteractionController : MonoBehaviour
         }
     }
 
-    //void OnTriggerExit(Collider other)
-    //{
-    //    if (other.tag == "Player")
-    //    {
-    //        fog.SetActive(true);
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            //fog.SetActive(true);
+            sign1.SetActive(false);
 
-    //        //piclight.SetActive(false);
-    //        Debug.Log("Player Exited");
-    //        ////        sign1.SetActive(false);
-    //        ////        pic1.SetActive(false);
-    //        ////        audioSrc.PlayOneShot(panelClose);
-    //    }
-    //}
+            //piclight.SetActive(false);
+            Debug.Log("Player Exited");
+            ////        sign1.SetActive(false);
+            ////        pic1.SetActive(false);
+            ////        audioSrc.PlayOneShot(panelClose);
+        }
+    }
 
 }
