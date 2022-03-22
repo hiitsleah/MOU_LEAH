@@ -4,9 +4,9 @@ using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-        lookSpeed *= .65f;
-#endif
+//#if UNITY_WEBGL && !UNITY_EDITOR
+//        lookSpeed *= .65f;
+//#endif
 
 #pragma warning disable 618, 649
 namespace UnityStandardAssets.Characters.FirstPerson
