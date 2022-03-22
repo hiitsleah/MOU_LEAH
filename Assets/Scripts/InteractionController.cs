@@ -46,20 +46,18 @@ public class InteractionController : MonoBehaviour
             sign1.SetActive(true);
             fog.SetActive(false);
 
-            if (Input.GetKeyDown(KeyCode.Space))
+
+            //if (!audioSource.isPlaying)
+            //{
+                audioSource.clip = GetRandomClip();
+                audioSource.Play();
+            //}
+
+            if (Input.GetKeyDown("3"))
             {
                 audioSource.clip = GetRandomClip();
                 audioSource.Play();
             }
-
-
-            else if (!audioSource.isPlaying)
-            {
-                audioSource.clip = GetRandomClip();
-                audioSource.Play();
-            }
-
-        
 
 
             //audioSrc.PlayOneShot(music);
