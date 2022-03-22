@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da3f70342366403699b0fa96e707f11, type: 3}
   m_Name: Lighting Preset
   m_EditorClassIdentifier: 
-  BathroomColor: {r: 0.28043985, g: 0.048460316, b: 0.31132078, a: 0}
+  BathroomColor: {r: 0.75337934, g: 0.5801887, b: 0.7735849, a: 0}
   AirportColor: {r: 0.7028302, g: 0.8264318, b: 1, a: 0}
   StudyroomColor: {r: 0.9056604, g: 0.813423, b: 0.5339979, a: 0}
   LivingroomColor: {r: 0.12976147, g: 0.12976147, b: 0.33962262, a: 0}
-  NatureColor: {r: 0.6065326, g: 0.8867924, b: 0.7095693, a: 0}
-  SubwayColor: {r: 0.110359564, g: 0.121954955, b: 0.1509434, a: 0}
-  DefaulSkyColor: {r: 1, g: 0.6717344, b: 0.6084906, a: 0}
+  NatureColor: {r: 0.6452474, g: 0.9433962, b: 0.7544286, a: 0}
+  SubwayColor: {r: 0.35822356, g: 0.39226592, b: 0.4716981, a: 0}
+  DefaulSkyColor: {r: 0.7684788, g: 0.6745283, b: 1, a: 0}
