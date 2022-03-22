@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.9731425, g: 0.39770594, b: 0.31957915, a: 1}
+  m_IndirectSpecularColor: {r: 0.9956053, g: 0.6689459, b: 0.60595644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -325,7 +325,6 @@ GameObject:
   - component: {fileID: 65798135}
   - component: {fileID: 65798134}
   - component: {fileID: 65798133}
-  - component: {fileID: 65798132}
   - component: {fileID: 65798136}
   m_Layer: 0
   m_Name: Area_Subway
@@ -334,19 +333,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &65798132
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65798131}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &65798133
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -519,7 +505,6 @@ GameObject:
   - component: {fileID: 76740967}
   - component: {fileID: 76740966}
   - component: {fileID: 76740965}
-  - component: {fileID: 76740964}
   - component: {fileID: 76740968}
   m_Layer: 0
   m_Name: Area_Studyroom
@@ -528,19 +513,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &76740964
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76740963}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &76740965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -807,7 +779,6 @@ GameObject:
   - component: {fileID: 82830112}
   - component: {fileID: 82830111}
   - component: {fileID: 82830110}
-  - component: {fileID: 82830109}
   - component: {fileID: 82830113}
   - component: {fileID: 82830114}
   m_Layer: 0
@@ -817,19 +788,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &82830109
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82830108}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &82830110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2270,7 +2228,6 @@ GameObject:
   - component: {fileID: 255052740}
   - component: {fileID: 255052739}
   - component: {fileID: 255052738}
-  - component: {fileID: 255052737}
   - component: {fileID: 255052741}
   m_Layer: 0
   m_Name: Area_Livingroom
@@ -2279,19 +2236,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &255052737
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255052736}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &255052738
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2719,7 +2663,6 @@ GameObject:
   - component: {fileID: 353589177}
   - component: {fileID: 353589176}
   - component: {fileID: 353589175}
-  - component: {fileID: 353589174}
   - component: {fileID: 353589178}
   m_Layer: 0
   m_Name: Area_Nature
@@ -2728,19 +2671,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &353589174
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353589173}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &353589175
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3205,8 +3135,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.1842046, y: 1, z: 1.188488}
+  m_Center: {x: 0.09210243, y: 0, z: -0.08139301}
 --- !u!23 &393060538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3542,7 +3472,6 @@ GameObject:
   - component: {fileID: 562548074}
   - component: {fileID: 562548078}
   - component: {fileID: 562548077}
-  - component: {fileID: 562548076}
   - component: {fileID: 562548075}
   m_Layer: 0
   m_Name: shower
@@ -3662,19 +3591,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!65 &562548076
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562548073}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &562548077
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5568,8 +5484,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5663,7 +5579,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941697853}
   m_LocalRotation: {x: 0, y: 0.9588198, z: -0, w: -0.28401524}
-  m_LocalPosition: {x: 0, y: 0, z: -205.3}
+  m_LocalPosition: {x: 0, y: 0, z: -200.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5672,7 +5588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 213, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -89, y: 6.1}
+  m_AnchoredPosition: {x: -102.6, y: 3.2}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &941697857
@@ -5682,7 +5598,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941697853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c8ceefe949ff44e5955141f1944a484, type: 3}
   m_Name: 
@@ -8540,7 +8456,6 @@ GameObject:
   - component: {fileID: 1478987801}
   - component: {fileID: 1478987800}
   - component: {fileID: 1478987799}
-  - component: {fileID: 1478987798}
   - component: {fileID: 1478987802}
   m_Layer: 0
   m_Name: Area_Airport
@@ -8549,19 +8464,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1478987798
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478987797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1478987799
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18205,7 +18107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042252377750337691, guid: e84608e1a281845da88a70cbca2cf1c2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7042252377753326459, guid: e84608e1a281845da88a70cbca2cf1c2, type: 3}
       propertyPath: m_WalkSpeed
@@ -18225,7 +18127,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361321580}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1001 &7082330589871528917
 PrefabInstance:
   m_ObjectHideFlags: 0
