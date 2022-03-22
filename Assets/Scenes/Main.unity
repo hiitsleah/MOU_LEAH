@@ -3927,18 +3927,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instructions:
 
-
-    - Turn around and start to explore
-
-
-    - Using W/A/S/D
-    to move
+    -----------------------------
 
 
-    - Enjoy the music
+    - Turn around and
+    start to explore
+
+    - Use W/A/S/D to move
+
+    - Use SPACE to jump over obstacles
+
+    -
+    Enjoy the music
 
 
 
+    -----------------------------
 
     (press 2 ro exit)'
   m_isRightToLeft: 0
