@@ -18,7 +18,7 @@ public class InteractionController : MonoBehaviour
         fog.SetActive(true);
 
         //piclight.SetActive(false);
-        audioSrc = GetComponent<AudioSource>();
+        //audioSrc = GetComponent<AudioSource>();
     }
     void OnTriggerEnter(Collider other)
     {
@@ -27,7 +27,7 @@ public class InteractionController : MonoBehaviour
             Debug.Log("Player Entered");
             sign1.SetActive(true);
             fog.SetActive(false);
-            audioSrc.PlayOneShot(music);
+            //audioSrc.PlayOneShot(music);
 
             //piclight.SetActive(true);
             //audioSrc(panelOpen);
