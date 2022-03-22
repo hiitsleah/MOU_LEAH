@@ -6046,9 +6046,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
+      propertyPath: MaxDistance
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 029dd95ba203747019138037fc0762e4, type: 3}
+      objectReference: {fileID: 8300000, guid: 8f8cafb34346f470793d21acfa5f2883, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
 --- !u!4 &1436100126 stripped
