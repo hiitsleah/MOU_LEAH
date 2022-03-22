@@ -3385,6 +3385,7 @@ GameObject:
   - component: {fileID: 772662528}
   - component: {fileID: 772662527}
   - component: {fileID: 772662531}
+  - component: {fileID: 772662532}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -3502,6 +3503,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!81 &772662532
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772662525}
+  m_Enabled: 1
 --- !u!1 &786467390
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,6 +6362,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 699ad59cb6bdc4f049eaf75dc9a6153d, type: 3}
@@ -7881,9 +7894,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
+      propertyPath: MaxDistance
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 764e28bc1105344f1835aebac40d5a1c, type: 3}
+      objectReference: {fileID: 8300000, guid: 7bfb9ec3778c84e139cc8f8eb4410514, type: 3}
+    - target: {fileID: 9167745795255344852, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 094d8782fa4064c5c91c6b638010e005, type: 3}
 --- !u!4 &1745258742 stripped
