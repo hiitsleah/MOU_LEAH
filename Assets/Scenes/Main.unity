@@ -10757,24 +10757,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instructions:
 
-    ---------------------------
 
 
-    - Turn around and
-    start to explore
+    Turn around and start to explore
 
-    - Use W/A/S/D to move
+    Use W/A/S/D
+    to move
 
-    - Use SPACE to jump over obstacles
+    Use SPACE to jump over obstacles
 
-    -
     Enjoy the music
 
 
 
-    ---------------------------
 
-    (press 2 ro exit)'
+    (press
+    2 ro exit)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
   m_sharedMaterial: {fileID: -438952424079029521, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
@@ -10807,7 +10805,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -11697,8 +11695,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Study Room playlist\n\n- songs that help us focus  - \n\n\nhit SPACE to
-    shuffle \n------------------\n\ndaigoro789 - Ballad of The Windfish\nFKJ - Ylang
-    Ylang\nMirta da Silva - Before Your Eyes\n\n"
+    shuffle \n\n\ndaigoro789 - Ballad of The Windfish\nFKJ - Ylang Ylang\nMirta da
+    Silva - Before Your Eyes\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
   m_sharedMaterial: {fileID: -438952424079029521, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
