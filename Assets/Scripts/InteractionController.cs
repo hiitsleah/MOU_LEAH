@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //using UnityEngine.UI;
+//#if UNITY_WEBGL && !UNITY_EDITOR
+//        lookSpeed *= .65f;
+//#endif
+
 public class InteractionController : MonoBehaviour
 {
     public GameObject sign1;

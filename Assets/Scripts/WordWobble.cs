@@ -71,7 +71,7 @@ public class WordWobble : MonoBehaviour
 
         mesh.vertices = vertices;
         mesh.colors = colors;
-        textMesh.canvasRenderer.SetMesh(mesh);
+        //textMesh.canvasRenderer.SetMesh(mesh);
     }
 
     Vector2 Wobble(float time)
