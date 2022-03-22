@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da3f70342366403699b0fa96e707f11, type: 3}
   m_Name: Lighting Preset
   m_EditorClassIdentifier: 
-  BathroomColor: {r: 0.75337934, g: 0.5801887, b: 0.7735849, a: 0}
+  BathroomColor: {r: 0.22534063, g: 0.10279459, b: 0.2830189, a: 0}
   AirportColor: {r: 0.7028302, g: 0.8264318, b: 1, a: 0}
   StudyroomColor: {r: 0.9056604, g: 0.813423, b: 0.5339979, a: 0}
   LivingroomColor: {r: 0.12976147, g: 0.12976147, b: 0.33962262, a: 0}
