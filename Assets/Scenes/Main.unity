@@ -9213,13 +9213,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Group Members:\nJunru Xu: Player Movement, Menu Design, Fog, Text, Sound\nYunfei
-    Song: Player Movement, Rendering, Sound, General Debug\nZiwei Ji: Game Design,
-    Assets, Sound, General Debug\nLeah Xiaotong Wang: Game Design, Assets, Audio,
-    GitRepo\n\nExternal Credit:\n3D models from these studios/individuals: \n\nMehdi
-    Rabiee, SpeedTutor, The Fallout Nerd, Alstra Infinite, Alex Merqury, Robot Skeleton,
-    Hurly Burly, polyperfect, JustCreate, Synty Studios\n\nAll scripts, effects,
-    and UX are original.\n"
+  m_text: "Group Members:\nJunru Xu: Player Movement, UX, Menu Design, Fog, Text,
+    Sound/Video\nYunfei Song: Player Movement, UX, Rendering, Sound, General Debug\nZiwei
+    Ji: Game Design, Assets, Sound, Lighting, General Debug\nLeah Xiaotong Wang:
+    Game Design, Assets, Audio, GitRepo\n\nExternal Credit:\n3D models from these
+    studios/individuals: \n\nMehdi Rabiee, SpeedTutor, The Fallout Nerd, Alstra Infinite,
+    Alex Merqury, Robot Skeleton, Hurly Burly, polyperfect, JustCreate, Synty Studios\n\nAll
+    scripts, effects, and UX are original.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
   m_sharedMaterial: {fileID: -438952424079029521, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
@@ -17921,7 +17921,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: roaming in the world of music and experiencing them under different scenarios
+  m_text: Roaming in the world of spatial audio and experiencing them within different
+    scenarios
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
   m_sharedMaterial: {fileID: -438952424079029521, guid: 1d203972de0734508a8a3fb6970ed8f1, type: 2}
@@ -18052,7 +18053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 3.933, y: 12.996, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.5, y: 13.044298}
+  m_AnchoredPosition: {x: -15.9, y: 13.044298}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112122010
