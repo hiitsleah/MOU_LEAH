@@ -5,28 +5,28 @@ using UnityEngine.Video;
 
 public class VideoPlayer : MonoBehaviour
 {
-    public string url;
-    VideoPlayer vidPlayer;  
+    //public string url;
+    //VideoPlayer vidPlayer;  
 
-    void Start()
-    {
-        vidPlayer = GetComponent<VideoPlayer>();
-        vidPlayer.url = url;
-    }
+    //void Start()
+    //{
+    //    vidPlayer = GetComponent<VideoPlayer>();
+    //    vidPlayer.url = url;
+    //}
 
   
-    void Update()
-    {
-        Play();
+    //void Update()
+    //{
+    //    Play();
 
-    }
-
-
-    void Play()
-    {
-        vidPlayer.Play();
-        //vidPlayer.isLooping = true;
+    //}
 
 
-    }
+    //void Play()
+    //{
+    //    vidPlayer.Play();
+    //    //vidPlayer.isLooping = true;
+
+
+    //}
 }
