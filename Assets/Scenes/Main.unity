@@ -2038,7 +2038,7 @@ Transform:
   - {fileID: 357081426}
   - {fileID: 984876081}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211749207
 GameObject:
@@ -2417,7 +2417,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 273.111, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4364,8 +4364,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'yunfei:
 
-    Every time I can''t focus, I listen to some calm music to
-    clear my mind and to get a better state.'
+    Every time I try to focus on work, I listen to these songs
+    to clear my mind and get back to work. This playlist brings a sense of calmness.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5294,7 +5294,7 @@ Transform:
   m_Children:
   - {fileID: 2142035102}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &542035514
 Rigidbody:
@@ -7234,7 +7234,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1936847547}
     m_Modifications:
     - target: {fileID: 171934, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_Name
@@ -7242,19 +7242,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.87
+      value: -50.688354
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: -22.421755
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.05
+      value: -4.3670654
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7266,11 +7266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7290,6 +7290,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
+--- !u!4 &798045847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 474158, guid: bc8dd0e6b42501a4288d6cd7e6d36788, type: 3}
+  m_PrefabInstance: {fileID: 798045846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &799116902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7771,7 +7776,7 @@ Transform:
   - {fileID: 1058629383}
   - {fileID: 182896983}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &878170419
 PrefabInstance:
@@ -8193,7 +8198,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 213, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10876,8 +10881,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "all of us:\nAs the lyrics goes \u201Cdriving to Hawaii,\u201D this playlist
-    consists of songs we love to listen to  while we travel. They might also be songs
-    we use in our travel vlogs! ;)"
+    consists of songs we love to listen to when we travel. They might also be the
+    songs we use for our travel vlogs! ;)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11262,7 +11267,7 @@ Transform:
   - {fileID: 703056507}
   - {fileID: 1579944061}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303792762
 GameObject:
@@ -11531,9 +11536,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'leah:
 
-    Subway always remind me of clips from TV drama or movies where
-    I imagine myself being the main character. Listening to this song is like having
-    a BGM while walking in subway. '
+    Subway always reminds me of clips from TV drama or movies where
+    I imagine myself being the main character. Listening to this playlist is like
+    having a BGM while walking in the subway station. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12020,7 +12025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4015208051629900, guid: 6ec9238d10f784bcd87707485e982a0c, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4015208051629900, guid: 6ec9238d10f784bcd87707485e982a0c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13092,7 +13097,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 213.874, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13636,7 +13641,7 @@ RectTransform:
   - {fileID: 46873110}
   - {fileID: 1191780411}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14486,7 +14491,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658082972
 GameObject:
@@ -14656,7 +14661,7 @@ Transform:
   - {fileID: 1064877704}
   - {fileID: 1440953956}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1707706626
 GameObject:
@@ -15101,9 +15106,9 @@ MonoBehaviour:
   m_text: 'all of us:
 
     Since we are all international students, airport carries
-    very special meanings to us. It is a place that have witnessed many moments of
-    separating and reuniting. These songs either trigger nostalgic emotions or sweet
-    memories about home.'
+    a very special meaning to us. It is a place that witnesses many moments of separating
+    and reuniting. These songs either trigger nostalgic emotions or sweet memories
+    about home.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15881,7 +15886,7 @@ Transform:
   - {fileID: 65798135}
   - {fileID: 255052740}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1827684359 stripped
 Transform:
@@ -16701,8 +16706,9 @@ Transform:
   - {fileID: 219557600}
   - {fileID: 1982136832}
   - {fileID: 1846406708}
+  - {fileID: 798045847}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938827686
 GameObject:
@@ -16992,9 +16998,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Z: \nAfter a week of rushing deadline. I draw a bath of water and lie
-    into it. with the music playing in the backgournd I sank into hot bath tub and
-    wind down."
+  m_text: "Z: \nAfter a week of rushing deadlines, I often draw a bath of water and
+    just immerse myself into it. With the music playing in the backgournd I sink
+    into the hot bath tub and wind down."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18155,10 +18161,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'junru:
-
-    As the light dims, and music is on, the party begins. This
-    playlist consists of songs we love to throw party with. '
+  m_text: "junru:\nAs the light dims, and the music is on, the party begins. \nThis
+    playlist consists of songs we love to throw party with. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24909,7 +24913,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7042252377743227579, guid: e84608e1a281845da88a70cbca2cf1c2, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7042252377743227579, guid: e84608e1a281845da88a70cbca2cf1c2, type: 3}
       propertyPath: m_LocalPosition.x
