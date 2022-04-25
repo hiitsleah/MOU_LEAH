@@ -1,17 +1,12 @@
-# MOU_LEAH
-This is the Repository for class project Museum of Us: Music Stations 
+# *Museum of Us: Music Stations*
+## Spatial audio and immersive experience on [itch.io](https://anhsu0505.itch.io/museum-of-us)
+### This is the Repository Collab: Remaking The Museum midterm project.
 
-
-Parsons MFA DT Collab: Remaking Museums 
-
-
-Junru Xu: Player Movement, UX, Menu Design, Fog, Text, Media, Debug
-
+#### Group Members:
+[Junru Xu](https://www.anxu.me/): Player Movement, UX, Menu Design, Fog, Text, Media, Debug
 
 Yunfei Song: Player Movement, UX, Rendering, Sound, General Debug
 
-
 Ziwei Ji: Game Design, Assets, Sound, Lighting, General Debug
-
 
 Leah Xiaotong Wang: Game Design, Assets, Audio, GitRepo
