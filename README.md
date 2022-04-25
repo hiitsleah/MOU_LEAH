@@ -1,6 +1,6 @@
 # *Museum of Us: Music Stations*
 ## Spatial audio and immersive experience on [itch.io](https://anhsu0505.itch.io/museum-of-us)
-### This is the Repository Collab: Remaking The Museum midterm project.
+### This is the Repository for midterm project in Collab: Remaking The Museum class.
 
 #### Group Members:
 [Junru Xu](https://www.anxu.me/): Player Movement, UX, Menu Design, Fog, Text, Media, Debug
